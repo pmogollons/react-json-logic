@@ -2,7 +2,7 @@
   "name": "react-json-logic",
   "version": "2.1.0",
   "description": "Build and evaluate JsonLogic rules with React Components.",
-  "main": "./src/index.jsx",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "concurrently \"yarn-or-npm run start\" \"yarn-or-npm run start:docs\"",
     "start": "webpack --watch --config config/webpack/lib.dev.js",
